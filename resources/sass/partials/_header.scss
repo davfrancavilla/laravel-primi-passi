@@ -1,0 +1,26 @@
+nav {
+    text-align: center;
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    img {
+        height: 50px;
+        margin-bottom: 5px;
+    }
+    ul {
+        list-style: none;
+        li {
+            display: inline-block;
+            a {
+                color: black;
+            }
+        }
+        li:not(:last-of-type){
+            margin-right: 20px;
+        }
+    }
+}
