@@ -1,8 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-@include("partials.head")
-<body>
-    @include("partials.header")
-    contatti
-</body>
-</html>
+@extends('layout.app')
+@section('title', 'Contatti')
+@section('main')
+    Contatti
+@endsection
